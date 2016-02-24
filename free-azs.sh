@@ -1,4 +1,6 @@
 #!/bin/bash
+# Shell Options, needed to preserve ENV from while loops.
+shopt -s lastpipe
 
 # Process arguments
 ACCOUNT=$1
